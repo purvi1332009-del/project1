@@ -1,19 +1,24 @@
 #include <stdio.h>
 int main()
 {
-    float a, b, c;
-    printf("enter the value of a:");
+    float a, b, c, max;
+    printf("value of a is:");
     scanf("%f", &a);
-    printf("enter the value of b:");
+    printf("value of b is:");
     scanf("%f", &b);
-    printf("enter the value of c:");
+    printf("value of c is:");
     scanf("%f", &c);
-    if (
-        a > b && b > c)
+    max = a;
+    if (b > max)
+
+    {
+        max = b;
+    }
+    if (c > max)
         ;
-    printf("max.no.is a");
-    elif (b > a && a > c);
-    printf("max no.is b");
-    elif (
-        printf("max no.is c"));
+    {
+        max = c;
+    }
+    printf("maximum no. is:%.2f\n", max);
+    return 0;
 }
