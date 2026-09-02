@@ -1,3 +1,4 @@
+// calculation of cut off marks
 #include <stdio.h>
 int main()
 {

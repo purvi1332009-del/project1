@@ -1,3 +1,4 @@
+// calculation of total marks and percentage
 #include <stdio.h>
 int main()
 {

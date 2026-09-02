@@ -1,3 +1,4 @@
+// calculating area of triangle
 #include <stdio.h>
 int main()
 {

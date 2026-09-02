@@ -1,3 +1,4 @@
+// calculating marks of 5 sub. and giving division
 #include <stdio.h>
 int main()
 {
@@ -15,7 +16,7 @@ int main()
     scanf("%f", &computer);
     total_marks = maths + che + phy + eng + computer;
     percentage = (total_marks) / 5;
-    if (percentage >= 90)
+    if (percentage >= 90) // condition
     {
         printf("division is A");
     }

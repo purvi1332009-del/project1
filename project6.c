@@ -1,3 +1,4 @@
+// swap value of two var without using third var
 #include <stdio.h>
 int main()
 {

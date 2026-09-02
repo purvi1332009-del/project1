@@ -1,3 +1,4 @@
+// converting total seconds into time
 #include <stdio.h>
 int main()
 {

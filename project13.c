@@ -1,3 +1,4 @@
+// finding max value from 3 numbers
 #include <stdio.h>
 int main()
 {

@@ -1,3 +1,4 @@
+// reading max no. from 3 variable with logical(&&) operator
 #include <stdio.h>
 int main()
 {
