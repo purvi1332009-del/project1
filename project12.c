@@ -20,14 +20,18 @@ int main()
     {
         printf("division is A");
     }
-    else if (percentage >= 80)
+    if (percentage >= 80)
     {
         printf("division is B");
     }
-    else
-        (percentage < 80);
+    if (percentage < 80)
+        ;
     {
         printf("division is C or below");
+    }
+    if (percentage < 0 || percentage > 100)
+    {
+        printf("invalid percentage");
     }
     return 0;
 }

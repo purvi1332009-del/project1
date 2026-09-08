@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //finding max no. using conditional operator
 int main()
 {
     int a, b, c, max;

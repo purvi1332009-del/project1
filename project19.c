@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //printing even numbers
 int main()
 {
     int i = 0;
