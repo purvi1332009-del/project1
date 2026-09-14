@@ -1,16 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int i, n;
-    printf("enter the value of i:");
-    scanf("%d", &i);
-    n = 1;
-    for (n = 1; n <= 10; n = n++)
-        ;
+    int num, i;
+    printf("enter the number");
+    scanf("%d", &num);
+    printf("Multiplication table of %d:\n", num);
+    for (i = 1; i <= 10; i++)
     {
-        i *= n;
-        printf("table of no.is:%d\n", i);
+        printf("%d*%d=%d\n", num, i, num * i);
     }
-    printf("table of no.is:%d\n", i);
     return 0;
 }
